@@ -35,7 +35,7 @@ class BotHandler:
         return last_update
         
 greet_bot = BotHandler(TOKEN)
-greetings = ('здравствуй', 'привет', 'ку', 'здорово')  
+greetings = ('здравствуй', 'привет', 'ку', 'здорово', 'hi')  
 now = datetime.datetime.now()
 
 def main():  
